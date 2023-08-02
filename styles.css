@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide the screen into two equal parts */
+    height: 80%;
+}
+
+.left-side {
+    background-color: #080808; /* Optional: Set the background color for the left side */
+    padding: 80px;
+}
+
+.right-side {
+    display: flex;
+    background-color: #080808; 
+     /* Center the image vertically */
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 100px;
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    height: 70%; /* Maintain the image's aspect ratio */
+    border-radius: 50%;
+    filter: drop-shadow(10px 0px 20px rgba(52, 102, 102, 0));
+    background-color: rgb(197, 116, 9);
+    
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav li {
+    /* Optional: Add some spacing between the list items */
+    margin-right: 60px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(139, 13, 13);
+}
+
+nav {
+    /* Optional: Add some styling to the navigation bar itself */
+    background-color: #080808;
+    padding: 2px;
+    max-height: fit-content;
+    font-family: 'Urbanist';
+}
+
+a {
+    text-decoration: none;
+    color: #06d6da;
+    font-size: large;
+  }
+
+.para
+{
+    margin-top: 70px;
+}
+
+p1
+{
+    font-size: 40px;
+    font-family: 'Urbanist';
+    color: #06d6da;
+}
+
+p2
+{
+    font-size: 20px;
+    font-family: 'Urbanist';
+    color: #06d6da;
+}
+
+h1
+{
+    margin-top: 100px;
+    font-family: 'Urbanist';    
+    color: #06d6da;
+}
+
+h3{
+    font-family: 'Urbanist';}
+
+footer
+{
+    text-align: center;
+    background-color: #b74c4c; /* Replace with your desired background color */
+    color: #0ac9c6; /* Replace with your desired text color */
+    font-family: 'Times New Roman', Times, serif;
+}
