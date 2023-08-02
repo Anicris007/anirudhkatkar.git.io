@@ -32,7 +32,7 @@ img {
     margin-top: 50px;
     margin-left: 100px;
     max-width: 100%; /* Ensure the image does not exceed its container width */
-    height: 50%; /* Maintain the image's aspect ratio */
+    height: 60%; /* Maintain the image's aspect ratio */
     border-radius: 50%;
     filter: drop-shadow(10px 0px 20px rgba(52, 102, 102, 0));
     background-color: rgb(197, 116, 9);
